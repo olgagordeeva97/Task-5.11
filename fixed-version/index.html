@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>БыстроНовости</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="page">
+    <header class="header">
+        <div class="container">
+            <h1 class="header__title">Новости</h1>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="news">
+            <div class="container">
+                <h2 class="visually-hidden">Список новостей</h2>
+                
+                <article class="news__item news__item--highlight">
+                    <a href="#" class="news__link">
+                        <h3 class="news__title">В выходные в столице ожидается резкое потепление</h3>
+                    </a>
+                    <div class="news__meta">
+                        <span class="news__author">Опубликовал <a href="#" class="news__author-link">Василий Петров</a></span>
+                        <time class="news__date" datetime="2024-04-13">13 апреля 2024</time>
+                    </div>
+                    <img class="news__image" 
+                         src="https://images.unsplash.com/photo-1762223749370-4d05a6023f8f?ixlib=rb-4.1.0&auto=format&fit=crop&q=80&w=1450" 
+                         alt="Солнечная погода в городе">
+                    <p class="news__text">По данным метеорологов, температура поднимется до +15 °C, возможны кратковременные дожди. Жителей просят быть внимательнее на дорогах из-за тающего снега.</p>
+                </article>
+
+                <article class="news__item news__item--highlight">
+                    <a href="#" class="news__link">
+                        <h3 class="news__title">На Байкале зафиксировали редкое свечение воды</h3>
+                    </a>
+                    <div class="news__meta">
+                        <span class="news__author">Опубликовал <a href="#" class="news__author-link">Иван Иванов</a></span>
+                        <time class="news__date" datetime="2023-07-20">20 июля 2023</time>
+                    </div>
+                    <img class="news__image" 
+                         src="https://images.unsplash.com/photo-1762222630690-20a58212af83?ixlib=rb-4.1.0&auto=format&fit=crop&q=80&w=2070" 
+                         alt="Свечение воды на озере Байкал ночью">
+                    <p class="news__text">Учёные объяснили явление биолюминесценцией — свечением микроорганизмов. Фотографии уже разошлись по соцсетям.</p>
+                </article>
+
+                <article class="news__item">
+                    <a href="#" class="news__link">
+                        <h3 class="news__title">В Европе зафиксирована самая тёплая осень за 50 лет</h3>
+                    </a>
+                    <div class="news__meta">
+                        <span class="news__author">Опубликовал <a href="#" class="news__author-link">Петр Кузнецов</a></span>
+                        <time class="news__date" datetime="2022-11-04">4 ноября 2022</time>
+                    </div>
+                    <img class="news__image" 
+                         src="https://images.unsplash.com/photo-1762119708197-f07b0d6d0652?ixlib=rb-4.1.0&auto=format&fit=crop&q=80&w=2070" 
+                         alt="Осенний парк в Европе">
+                    <p class="news__text">Средняя температура в октябре превысила норму на 3 °C. Метеорологи связывают это с глобальными климатическими изменениями.</p>
+                </article>
+
+                <article class="news__item">
+                    <a href="#" class="news__link">
+                        <h3 class="news__title">На Дальнем Востоке ожидается мощный циклон</h3>
+                    </a>
+                    <div class="news__meta">
+                        <span class="news__author">Опубликовал <a href="#" class="news__author-link">Борис Сидоров</a></span>
+                        <time class="news__date" datetime="2021-08-02">2 августа 2021</time>
+                    </div>
+                    <img class="news__image" 
+                         src="https://images.unsplash.com/photo-1760934449613-336b3c0d11e1?ixlib=rb-4.1.0&auto=format&fit=crop&q=80&w=2070" 
+                         alt="Пасмурное небо над морем">
+                    <p class="news__text">Синоптики предупреждают о ветре до 25 м/с и сильных осадках. Жителей просят по возможности оставаться дома.</p>
+                </article>
+
+                <article class="news__item">
+                    <a href="#" class="news__link">
+                        <h3 class="news__title">В Черном море уменьшилось количество пластикового мусора</h3>
+                    </a>
+                    <div class="news__meta">
+                        <span class="news__author">Опубликовал <a href="#" class="news__author-link">Александр Стрельцов</a></span>
+                        <time class="news__date" datetime="2020-02-10">10 февраля 2020</time>
+                    </div>
+                    <img class="news__image" 
+                         src="https://images.unsplash.com/photo-1762221527642-3dcb0d5b4b4d?ixlib=rb-4.1.0&auto=format&fit=crop&q=80&w=1452" 
+                         alt="Чистое море и берег">
+                    <p class="news__text">По данным экологов, за последний год уровень загрязнения снизился на 15% благодаря программе по переработке отходов.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <nav class="footer__nav">
+                <a href="#" class="footer__link">Вакансии</a>
+                <a href="#" class="footer__link">Контакты</a>
+                <a href="#" class="footer__link">О нас</a>
+                <a href="#" class="footer__link">Реклама</a>
+            </nav>
+            <div class="footer__copyright">Copyright © БыстроНовости 2020</div>
+        </div>
+    </footer>
+</body>
+</html>
